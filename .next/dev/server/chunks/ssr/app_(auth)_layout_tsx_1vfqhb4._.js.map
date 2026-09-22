@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/WDC1-3/latihan/ssiti/app/(auth)/layout.tsx"],"sourcesContent":["export default function AuthLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <div className=\"min-h-screen bg-slate-950 flex flex-col justify-center py-12 sm:px-6 lg:px-8 relative overflow-hidden\">\n      {/* Decorative gradients */}\n      <div className=\"absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[450px] bg-indigo-600/15 blur-[120px] rounded-full pointer-events-none\" />\n      <div className=\"absolute bottom-0 right-10 w-[500px] h-[350px] bg-violet-600/10 blur-[100px] rounded-full pointer-events-none\" />\n      <div className=\"relative z-10\">{children}</div>\n    </div>\n  );\n}\n\n"],"names":["AuthLayout","children","className"],"mappings":";;;;;;AAAe,SAASA,WAAW,EAAEC,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAIC,WAAU;;0BAEb,8OAAC;gBAAIA,WAAU;;;;;;0BACf,8OAAC;gBAAIA,WAAU;;;;;;0BACf,8OAAC;gBAAIA,WAAU;0BAAiBD;;;;;;;;;;;;AAGtC"}}]
+}

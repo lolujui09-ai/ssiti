@@ -1,0 +1,15 @@
+{
+  "/(app)/dashboard/page": "/dashboard",
+  "/(app)/forms/[formId]/page": "/forms/[formId]",
+  "/(auth)/login/page": "/login",
+  "/(auth)/register/page": "/register",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/[...all]/route": "/api/auth/[...all]",
+  "/api/forms/[formId]/responses/route": "/api/forms/[formId]/responses",
+  "/api/forms/[formId]/route": "/api/forms/[formId]",
+  "/api/forms/route": "/api/forms",
+  "/api/upload/route": "/api/upload",
+  "/f/[formId]/page": "/f/[formId]",
+  "/page": "/"
+}

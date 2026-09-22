@@ -1,0 +1,40 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/[root-of-the-server]__1a7bj6x._.js",
+        "server/edge/chunks/node_modules_kysely_dist_1zlw5t_._.js",
+        "server/edge/chunks/[root-of-the-server]__03k-1g6._.js",
+        "server/edge/chunks/node_modules_@better-auth_core_dist_1_k155o._.js",
+        "server/edge/chunks/[root-of-the-server]__181xk87._.js",
+        "server/edge/chunks/node_modules_@better-auth_kysely-adapter_dist_index_mjs_1j-r53x._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0fbeo36.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0fbeo36.js",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/dashboard/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/dashboard/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/forms/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/forms/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "iIdbS_cPc2CigHAmeYF40",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "HsLCVS4tdf2IIG7NbIz8W01ZPX8UcROK2jfz4MyGW/0=",
+        "__NEXT_PREVIEW_MODE_ID": "97ce26f7c4e0756aa03f3abd9dfde940",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "869e446cd3484db0799b4b51aca62cecc5fdf043b6a8b4ab0bdddbba16bdfbc6",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "dcdf7fa995e9ba0aefe64d68d937b94e9f366b54c05b36472a7ff283a6e70fce"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}

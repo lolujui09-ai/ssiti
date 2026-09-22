@@ -1,0 +1,6 @@
+{
+  "name": "Ssiti - Ubah Skema Menjadi Form Tanpa Builder",
+  "description": "AI yang biasa kamu ajak ngobrol, sekarang bisa bikinkan form kamu. Cukup salin format skema, ceritakan kebutuhan ke AI, lalu tempel hasilnya. Form langsung jadi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
